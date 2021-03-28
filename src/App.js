@@ -1,11 +1,13 @@
 import "./App.css";
 import Header from "./components/Header/header";
-import Table from './components/Table/table';
+import EmployeeCard from './components/EmployeeCard/employeecard';
+import API from './utils/API';
+
 function App() {
   return (
     <div className="App">
         <Header />
-        <Table />
+        <EmployeeCard />
     </div>
   );
 }
